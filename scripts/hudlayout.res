@@ -91,8 +91,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"BasicCrossSmall"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-101"
@@ -105,7 +105,7 @@
 		"labelText"		"2"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"50 205 50 255"
 	}
 	
 	BasicCrossLarge
