@@ -64,6 +64,7 @@ Scheme
 		"Last DamageHeal Info"					"72 255 255 255"
 		
 		//Menu/Color scheme colors
+		"TransparentPanelBG"		"25 25 25 128"
 		"Base Color"				"15 255 255 255"
 		"Button Color"				"72 255 255 255"	
 		
@@ -1512,6 +1513,30 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamCountNew"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"14"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"20"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
@@ -1577,6 +1602,42 @@ Scheme
 				"antialias" "1"
 			}
 		}
+
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"Cerbetica_edited"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}		
 		
 		"ControlPointTimer"
 		{
@@ -1992,6 +2053,7 @@ Scheme
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
+				"dropshadow""1"
 				"antialias" "1"
 			}
 		}
@@ -2257,8 +2319,8 @@ Scheme
 				"weight"	"500"
 			}
 		}
-		
-					"QuestInstructionText_Merasmus"
+
+			"QuestInstructionText_Merasmus"
 		{
 			"1"
 			{
@@ -2377,7 +2439,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		
 		"AdFont_ItemName"
 		{
 			"1"
@@ -3059,6 +3121,26 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Cerbetica10"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "10"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica11"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "11"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Cerbetica12"
 		{
 			"1"
@@ -3161,12 +3243,32 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Cerbetica36"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "36"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Cerbetica40"
 		{
 			"1"
 			{
 				"name"		 "Cerbetica_edited"
 				"tall" 		 "40"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Cerbetica44"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "44"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3297,6 +3399,16 @@ Scheme
 			{
 				"name"		 "Cerbetica Bold"
 				"tall" 		 "17"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"CerbeticaBold18"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "18"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3474,6 +3586,16 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Multimedia16"
+		{
+			"1"
+			{
+				"name"		 "Heydings Icons"
+				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"TF2ComboBox"
 		{
 			"1"
@@ -3503,7 +3625,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3512,7 +3634,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3521,7 +3643,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -3530,7 +3652,57 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "Base Color"
+					"offset" "0 0"
+				}
+			}
+		}
+		MainMenuTabs
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+			
+				"1"
+				{
+					"color" "Base Color"
+					"offset" "0 0"
+				}
+				"2"
+				{
+					"color" "Base Color"
+					"offset" "0 1"
+				}
+				"3"
+				{
+					"color" "Base Color"
+					"offset" "1 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "15 255 255 0"
 					"offset" "0 0"
 				}
 			}
@@ -4568,8 +4740,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -4599,6 +4771,29 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
+				TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6396,6 +6591,42 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 		}
+		
+				QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -6504,7 +6735,12 @@ Scheme
 		{
 			"font" "resource/Cerbetica_bold_medic.otf"
 			"name" "Cerbetica Bold Medic"
-		}	
+		}
+		"15" // Used for main menu icons
+		{
+			"font" "resource/heydings_icons.ttf"
+			"name" "Heydings Icons"
+		}
 }
 
 
